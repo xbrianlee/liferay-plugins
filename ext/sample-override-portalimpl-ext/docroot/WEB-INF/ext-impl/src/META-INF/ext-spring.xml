@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+>
+
+	<bean class="com.liferay.portal.util.SamplePortalImpl" id="com.liferay.portal.util.Portal" />
+
+	<!-- Liferay 6.x Only -->
+
+<!--
+	<bean id="com.liferay.portal.util.PortalUtil" class="com.liferay.portal.util.PortalUtil">
+		<property name="portal" ref="com.liferay.portal.util.Portal" />
+	</bean>
+-->
+
+</beans>

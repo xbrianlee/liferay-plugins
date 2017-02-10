@@ -1,6 +1,5 @@
 **/.sonar
 **/pmd-reports
-*-ext.properties
 *.bak
 *.iml
 *.ipr

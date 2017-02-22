@@ -17,7 +17,11 @@ package com.liferay.portal.servlet.context;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-public class SampleExtPortalContextLoaderListener implements ServletContextListener {
+/**
+ * @author Lawrence Lee
+ */
+public class SampleExtPortalContextLoaderListener
+	implements ServletContextListener {
 
 	public void contextDestroyed(ServletContextEvent servletContextEvent) {
 	}
@@ -25,4 +29,5 @@ public class SampleExtPortalContextLoaderListener implements ServletContextListe
 	public void contextInitialized(ServletContextEvent servletContextEvent) {
 		System.out.println("SAMPLE_EXT_INSTALLED_SUCCESSFULLY");
 	}
+
 }

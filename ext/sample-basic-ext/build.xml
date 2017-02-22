@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE project>
 
-<project name="sample-basic-ext" basedir="." default="deploy">
+<project basedir="." default="deploy" name="sample-basic-ext">
 	<import file="../build-common-ext.xml" />
 </project>

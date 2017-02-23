@@ -32,7 +32,6 @@
 /baseline-reports
 /build
 /build.*.properties
-/dist
 /hooks/*/test/integration/arquillian.xml
 /portlets/*/test/integration/arquillian.xml
 /webs/*/test/integration/arquillian.xml
